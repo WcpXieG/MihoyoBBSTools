@@ -37,15 +37,3 @@ jobs:
         run: |
           python main.py
 
-      # 5. 推送消息到 API
-      - name: Send notification to API
-        run: |
-          TITLE="Deploy Success"
-          CONTENT="部署成功！\n所有任务已经完成。"
-
-          # 使用 urlencode 对中文进行编码（您可以根据需要修改）
-          TITLE_ENCODED=$(echo "$TITLE" | jq -sRr @uri)
-          CONTENT_ENCODED=$(echo "$CONTENT" | jq -sRr @uri)
-
-          # 发送 POST 请求
-          curl -X POST "https://sctapi.ftqq.com/SCT264292TWz5ByXYE4AERSztrg1yy2S50.send?title=${TITLE_ENCODED}&desp=${CONTENT_ENCODED}"

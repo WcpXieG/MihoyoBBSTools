@@ -112,9 +112,9 @@ cloud_games:
       enable: false
       token: ""
 competition:
-  enable: false
+  enable: true
   genius_invokation:
-    enable: false
+    enable: true
     account: []
-    checkin: false
-    weekly: false
+    checkin: true
+    weekly: true

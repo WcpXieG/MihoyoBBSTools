@@ -18,7 +18,7 @@ from loghelper import log
 
 def random_pause():
     """添加随机暂停，范围为0.5到4秒，并输出等待信息"""
-    pause_time = random.uniform(0.5, 4)  # 生成0.5到4秒之间的随机浮点数
+    pause_time = random.uniform(0.2, 2.2)  # 生成0.5到4秒之间的随机浮点数
     log.info(f"等待 {pause_time:.3f} 秒...")
     time.sleep(pause_time)
 

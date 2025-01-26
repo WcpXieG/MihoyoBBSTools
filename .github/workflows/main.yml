@@ -8,7 +8,7 @@ on:
     branches:
       - main  # 监听针对 main 的 PR
   schedule:
-    - cron: '30 9 * * *'  # 每天 09:30 UTC 时间
+    - cron: '30 22 * * *'  # 每天 09:30 UTC 时间
   workflow_dispatch:  # 手动触发
 
 jobs:

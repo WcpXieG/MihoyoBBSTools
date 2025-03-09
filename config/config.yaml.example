@@ -1,22 +1,20 @@
 #这里控制整个config文件是否启用
 enable: true
 #config的版本
-version: 14
+version: 13
 # todo功能
 push: ""
 account:
   #登入账号只需要修改cookie就行了
-  cookie: ""
+  cookie: "_MHYUUID=b61eaec3-5054-480b-aa99-fa7da92ee87e; DEVICEFP_SEED_ID=02cf800be1dc4a57; DEVICEFP_SEED_TIME=1737815686559; _ga=GA1.1.1904645100.1737815687; DEVICEFP=38d804182ddc3; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=9dcbf4d3ec; account_mid_v2=0xpva6nmfk_mhy; account_id_v2=168406990; ltmid_v2=0xpva6nmfk_mhy; ltuid_v2=168406990; cookie_token=zG7vjMsPL8CXuLrHN6tRPDwFzP1sAPrP0kKdSAaL; account_id=168406990; ltoken=oI2wHJxieTObgNvIiOIqBtZls8Jz5IOY0654S5Wl; ltuid=168406990; _ga_KS4J8TXSHQ=GS1.1.1737815686.1.1.1737815903.0.0.0; uni_web_token=1e569940663442efac120751143bf4b20xpva6nmfk_mhy; cookie_token_v2=v2_60gj0w03sl6b2UrSEfGkn4_HPTIpY44PRnbDaKHceYNE2-3q72OfaT2k5j8q4cbPjxPXmaUucsa0I6puJeznEEgQ-Q_bQwVhIxCjuEwEbL-6KuhCC40eTrqB2cpihM5eiaqb8_ZqyGVvXMerPxtp7g==.CAE=; ltoken_v2=v2_XYfcLF-VtXNMBcsMnT_tdarhGGQjmj9TopWD7NkzYCxAIkd_shs-ehtCXqTyIaZtnMWxj8UHKJWIYwrjUhlLGjoCzgAa7QvsWMKqypzaBtZ517vmxI2SEI6ozQ58jJvyRCc64MeOYJGwSMaYxEtF6Q==.CAE=; acw_tc=ac11000117378199999973568e493e33156118cf44d73a3f3501e7641c3c84"
   stuid: ""
-  stoken: ""
+  stoken: "v2_91r4utAEr3kXKLHhdRxMzVzw53p8tvmYZQJAqRYx-56PPxcJCiibm68ncMhKfPAMxN4CZBKStwsw8zuGwMKV9jBhzFvWCiCpiWFxnMDTbofGPRSyuTsWNuMNXbIuRvgluVGkfQuQ_g==.CAE="
   mid: ""
 device:
   name: "Xiaomi MI 6"
   model: "Mi 6"
-  # 此处留空则脚本随机生成
+  # 此处脚本随机生成
   id: ""
-  # 手动获取
-  fp: ""
 mihoyobbs:
   #控制bbs功能是否启用
   enable: true
@@ -64,11 +62,11 @@ games:
       black_list: []
     # 崩坏: 星穹铁道
     honkai_sr:
-      checkin: false
+      checkin: true
       black_list: []
     #绝区零
     zzz:
-      checkin: false
+      checkin: true
       black_list: []
   #国际服控制区域
   os:
@@ -96,13 +94,13 @@ games:
 cloud_games:
   # 控制整个云游戏的签到
   cn:
-    enable: false
+    enable: true
     #云原神
     genshin:
       #开启签到
-      enable: false
+      enable: true
       #这里填入抓包获得的token，支持多个
-      token: ""
+      token: "ai=4;ci=1;oi=168406990;ct=v2_dc5dc96b6986522c5b6e4c3ddc8a667f085ee100;si=527368171a8dda1521a682921416f0391dbc420849de9cef367b6e945738bc32;bi=hk4e_cn"
     #云绝区零
     zzz:
       enable: false

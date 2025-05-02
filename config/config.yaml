@@ -8,7 +8,7 @@ account:
   #登入账号只需要修改cookie就行了
   cookie: "_MHYUUID=b61eaec3-5054-480b-aa99-fa7da92ee87e; DEVICEFP_SEED_ID=02cf800be1dc4a57; DEVICEFP_SEED_TIME=1737815686559; _ga=GA1.1.1904645100.1737815687; DEVICEFP=38d804182ddc3; account_id=168406990; ltuid=168406990; account_mid_v2=0xpva6nmfk_mhy; account_id_v2=168406990; ltmid_v2=0xpva6nmfk_mhy; ltuid_v2=168406990; acw_tc=ac11000117415106509512620ed9d9e2cefd0167a6e2406599af698c4b87c3; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=f2ed00dc31; cookie_token_v2=v2_7d7pNIilsnMkCboZp48BYSebZY22xRVSbf7DdXaRh8vsOQyLdsZrj2x_-gIFdbRAOdL4aMA3qZ5UC1BvN-soDp8PjJqjkhYQkWZWwKdBNCWZgmtDQk-Sai0_fbZ1bcOw4bo6Z5rvwaymfrDSnQ==.CAE=; ltoken_v2=v2_9c6qhZr2dO8VtVeAwHl9eBOM4iS5fFewNHMHfa7iyZDtlFL0SO3J6ZTXRLdOGbQy2fihbau7SgbeW7BYdHI-2ju3Tc_nJqDsuZd3OkTZnXqdQSaYRHs2RkpxftgTD4T_JAUeuCN1tBrwQOLMWA==.CAE=; cookie_token=7KaoC9hqwoOmPIoNmHHu4xyYYEHrD7OF6OGhBVYc; ltoken=fq667cWXubNyvNNdpBJPx4Xy9y28VXBesqkTkcCK; _ga_KS4J8TXSHQ=GS1.1.1741510649.5.1.1741510694.0.0.0"
   stuid: ""
-  stoken: "v2_91r4utAEr3kXKLHhdRxMzVzw53p8tvmYZQJAqRYx-56PPxcJCiibm68ncMhKfPAMxN4CZBKStwsw8zuGwMKV9jBhzFvWCiCpiWFxnMDTbofGPRSyuTsWNuMNXbIuRvgluVGkfQuQ_g==.CAE="
+  stoken: "v2_GVdvEaV5U0Qtn4YwjMuJvWJyAM8JHhhhmwMp0r1-OOAYKH1kOM0e3wUwxs4aYfRDfJ_PQlll5aJeHZy62C_qPj2Qm83Zlbem8xeTCNpG9SSPY8tHh1kpJkkj_pZKUjrrLo69qcdcDg==.CAE="
   mid: ""
 device:
   name: "Xiaomi MI 6"

@@ -6,8 +6,7 @@ version: 13
 push: ""
 account:
   #登入账号只需要修改cookie就行了
-  cookie: "
-_MHYUUID=350b4a84-7f85-48b8-824c-a231233f5707; DEVICEFP_SEED_ID=a3d1f941ea0a591e; DEVICEFP_SEED_TIME=1746167040301; account_mid_v2=0xpva6nmfk_mhy; account_id_v2=168406990; ltmid_v2=0xpva6nmfk_mhy; ltuid_v2=168406990; account_id=168406990; ltuid=168406990; DEVICEFP=38d80aac064ff; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=4403f2c9b3; cookie_token_v2=v2_8f8Lwrz1evzR7Udu8Ct1tg5Ti8iN68K9htX4LOq428iSwascBmeSFlv4jY8GIQ9RNGvYHQSygHFA0fbDHKmJdNrgIMzPG8dkd4yVsyVedh75pbH3dyZBYvDPDd1vPj42k5givU-xatbzpFJrNg==.CAE=; ltoken_v2=v2_C7LbopY08XiFBHImtbfImq1wrvXiERdYo2AEDNepsHoqjknNlwKKxLokVqhy1O4_gmXw7Vr1SVbDaAX_uOZSkRnRuioZrT5hKyIowqPC2fBwC1J6ERvECNPEPeXAwNbFgK0fZK8GeZ3xmk7BQA==.CAE=; cookie_token=PcZJaJo15X1W0ngJndo8HstTL31DLmwUEtoz2dUs; ltoken=n5khZRUlB2GSlifHZxjGqMxGQrw3ycSGvzpcxoPR"
+  cookie: "_MHYUUID=350b4a84-7f85-48b8-824c-a231233f5707; DEVICEFP_SEED_ID=a3d1f941ea0a591e; DEVICEFP_SEED_TIME=1746167040301; account_mid_v2=0xpva6nmfk_mhy; account_id_v2=168406990; ltmid_v2=0xpva6nmfk_mhy; ltuid_v2=168406990; account_id=168406990; ltuid=168406990; DEVICEFP=38d80aac064ff; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=4403f2c9b3; cookie_token_v2=v2_8f8Lwrz1evzR7Udu8Ct1tg5Ti8iN68K9htX4LOq428iSwascBmeSFlv4jY8GIQ9RNGvYHQSygHFA0fbDHKmJdNrgIMzPG8dkd4yVsyVedh75pbH3dyZBYvDPDd1vPj42k5givU-xatbzpFJrNg==.CAE=; ltoken_v2=v2_C7LbopY08XiFBHImtbfImq1wrvXiERdYo2AEDNepsHoqjknNlwKKxLokVqhy1O4_gmXw7Vr1SVbDaAX_uOZSkRnRuioZrT5hKyIowqPC2fBwC1J6ERvECNPEPeXAwNbFgK0fZK8GeZ3xmk7BQA==.CAE=; cookie_token=PcZJaJo15X1W0ngJndo8HstTL31DLmwUEtoz2dUs; ltoken=n5khZRUlB2GSlifHZxjGqMxGQrw3ycSGvzpcxoPR"
   stuid: ""
   stoken: "v2_GVdvEaV5U0Qtn4YwjMuJvWJyAM8JHhhhmwMp0r1-OOAYKH1kOM0e3wUwxs4aYfRDfJ_PQlll5aJeHZy62C_qPj2Qm83Zlbem8xeTCNpG9SSPY8tHh1kpJkkj_pZKUjrrLo69qcdcDg==.CAE="
   mid: ""
@@ -101,7 +100,7 @@ cloud_games:
       #开启签到
       enable: true
       #这里填入抓包获得的token，支持多个
-      token: "ai=4;ci=1;oi=168406990;ct=v2_20a842b93ac1a74b7d34f56309c476aae67bd2e6;si=af6fcc8b1b4c31d11bf230ee502fa8b388f556231f2f7231a1b820179f64fe07;bi=hk4e_cn"
+      token: "ai=4;ci=1;oi=168406990;ct=v2_26438181f73c10003c154e51a840d9b193693e87;si=6c8b4855b49846d70603089d8aef9f8a8c1fd4fe9a81d369307dcaacd1bee22c;bi=hk4e_cn"
     #云绝区零
     zzz:
       enable: false

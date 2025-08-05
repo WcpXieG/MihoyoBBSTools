@@ -1,1 +1,120 @@
-
+#这里控制整个config文件是否启用
+enable: true
+#config的版本
+version: 13
+# todo功能
+push: ""
+account:
+  #登入账号只需要修改cookie就行了
+  cookie: "_MHYUUID=56e3bc29-fbff-464b-a583-41f379711eb7; DEVICEFP_SEED_ID=683caf919f5b53f6; DEVICEFP_SEED_TIME=1754377657651; DEVICEFP=38d80e968cf95; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=98aa4a4256; ltoken_v2=v2_vNXLDfd1gTXgHAbLYy4owcf0h4u7_sZ8Dzb-U2L2aybri778U3TRWGVwSP4hkHWcxRF6QtuZ-z__XPcWmLls3VKOYoO-sM72Rxdf9S1Ej7LbtT2JcPuyaxnC1ArLrIy7aSrmd8PPcBk1Xhb4HZI=.CAE=; ltmid_v2=01wbuaanmw_mhy; ltuid_v2=438644541; cookie_token_v2=v2_BLd4wrVbCLw1ewTvYHMptpukKn-kJ0j_J8L_survMiz9wsSGl0fhUz84Urr3XITwV25XWviqxICF8jHrQ-E351g1o3W08y9AQQAp7bQF6BhS9Q7O-r_-NnKI4ltPs6S8YHpgeIKQvv40jGDkbno=.CAE=; account_mid_v2=01wbuaanmw_mhy; account_id_v2=438644541; cookie_token=HFcwFChpElrXxWJKKiPeU45NIPgKil4wBVP0iZhB; account_id=438644541; ltoken=ZA8ZTiujKpml2zs75ozbA52JFtEOSnrbeyYx7bGv; ltuid=438644541"
+  stuid: ""
+  stoken: "v2_GVdvEaV5U0Qtn4YwjMuJvWJyAM8JHhhhmwMp0r1-OOAYKH1kOM0e3wUwxs4aYfRDfJ_PQlll5aJeHZy62C_qPj2Qm83Zlbem8xeTCNpG9SSPY8tHh1kpJkkj_pZKUjrrLo69qcdcDg==.CAE="
+  mid: ""
+device:
+  name: "Xiaomi MI 6"
+  model: "Mi 6"
+  # 此处脚本随机生成
+  id: ""
+mihoyobbs:
+  #控制bbs功能是否启用
+  enable: true
+  #社区签到
+  checkin: true
+  #签到的社区列表 详情可以看config文件夹下面的readme
+  checkin_list:
+    - 5
+    - 2
+  #看帖
+  read: true
+  #点赞帖子
+  like: true
+  #取消点赞
+  cancel_like: true
+  #分享帖子
+  share: true
+# 游戏签到
+games:
+  #国服控制区域
+  cn:
+    #控制是否启用国内签到
+    enable: true
+    #配置签到用的ua 脚本会在后面自动加上miHoYoBBS/版本号 ,请复制的时候不要带miHoYoBBS/版本
+    useragent: "Mozilla/5.0 (Linux; Android 12; Unspecified Device) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36"
+    #重试次数
+    retries: 3
+    #原神
+    genshin:
+      #控制是否启用签到，下面一致
+      checkin: true
+      #这里是不签到的账号，填入文本型数据 示例["114514","1919810"](也许你这边是和checkin_list那块一样)，下面一致
+      black_list: []
+    #崩坏2
+    honkai2:
+      checkin: false
+      black_list: []
+    #崩坏3
+    honkai3rd:
+      checkin: false
+      black_list: []
+    #未定事件簿
+    tears_of_themis:
+      checkin: false
+      black_list: []
+    # 崩坏: 星穹铁道
+    honkai_sr:
+      checkin: true
+      black_list: []
+    #绝区零
+    zzz:
+      checkin: true
+      black_list: []
+  #国际服控制区域
+  os:
+    enable: false
+    # 国际服专用Cookie填写
+    cookie: ""
+    # 国际服语言
+    lang: "zh-cn"
+    genshin:
+      checkin: false
+      black_list: []
+    honkai3rd:
+      checkin: false
+      black_list: [ ]
+    tears_of_themis:
+      checkin: false
+      black_list: []
+    honkai_sr:
+      checkin: false
+      black_list: []
+    zzz:
+      checkin: false
+      black_list: []
+#云游戏专区
+cloud_games:
+  # 控制整个云游戏的签到
+  cn:
+    enable: true
+    #云原神
+    genshin:
+      #开启签到
+      enable: true
+      #这里填入抓包获得的token，支持多个
+      token: "ai=4;ci=1;oi=168406990;ct=v2_26438181f73c10003c154e51a840d9b193693e87;si=6c8b4855b49846d70603089d8aef9f8a8c1fd4fe9a81d369307dcaacd1bee22c;bi=hk4e_cn"
+    #云绝区零
+    zzz:
+      enable: false
+      token: ""
+  os:
+    lang: "zh-cn"
+    enable: false
+    genshin:
+      enable: false
+      token: ""
+competition:
+  enable: false
+  genius_invokation:
+    enable: false
+    account: []
+    checkin: false
+    weekly: false

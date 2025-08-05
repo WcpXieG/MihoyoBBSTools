@@ -6,7 +6,7 @@ version: 13
 push: ""
 account:
   #登入账号只需要修改cookie就行了
-  cookie: "account_id=168406990; ltuid=168406990; account_mid_v2=0xpva6nmfk_mhy; account_id_v2=168406990; ltmid_v2=0xpva6nmfk_mhy; ltuid_v2=168406990; _MHYUUID=56e3bc29-fbff-464b-a583-41f379711eb7; DEVICEFP_SEED_ID=683caf919f5b53f6; DEVICEFP_SEED_TIME=1754377657651; DEVICEFP=38d80e968cf95; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=7fab8aa67d; cookie_token_v2=v2_GLXQEwdjViDL7WeRmwgYU8Rs6UV4gmLblbxbeWbvwN-2nGmr1BWZecC5RuYp_yYllgDk9bVJTcocWGp_unMdqqXcZY9vBKV_cqR1DeXJ8EXtLXtEqhTa9TyiQqV5jW1UJ66VbZwXXYbbnIf6hQ==.CAE=; ltoken_v2=v2_unuZ7xdjICO7VyIlcgGIna8EQNhsYQMFXdbx1NugvQ3uGtUo5dNnnQsQRuH_9_87uAJd-QDu9zfLjiZmrcCVee6vjfg6eX7K6AFJw2JKv-6wJBtU-Niqi9mjCfukGKmPMZClCM1gTSrQ4TgSVA==.CAE=; cookie_token=DxyYSr0xiZwkP4bdWyUWtJZzFiZgGq5REUFEzpON; ltoken=wsGo6hX5ai55bhls4PjEHihdMnw0ec7b0O1dh4la"
+  cookie: "_MHYUUID=56e3bc29-fbff-464b-a583-41f379711eb7; DEVICEFP_SEED_ID=683caf919f5b53f6; DEVICEFP_SEED_TIME=1754377657651; DEVICEFP=38d80e968cf95; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=7fab8aa67d; cookie_token_v2=v2_GLXQEwdjViDL7WeRmwgYU8Rs6UV4gmLblbxbeWbvwN-2nGmr1BWZecC5RuYp_yYllgDk9bVJTcocWGp_unMdqqXcZY9vBKV_cqR1DeXJ8EXtLXtEqhTa9TyiQqV5jW1UJ66VbZwXXYbbnIf6hQ==.CAE=; ltoken_v2=v2_unuZ7xdjICO7VyIlcgGIna8EQNhsYQMFXdbx1NugvQ3uGtUo5dNnnQsQRuH_9_87uAJd-QDu9zfLjiZmrcCVee6vjfg6eX7K6AFJw2JKv-6wJBtU-Niqi9mjCfukGKmPMZClCM1gTSrQ4TgSVA==.CAE=; cookie_token=DxyYSr0xiZwkP4bdWyUWtJZzFiZgGq5REUFEzpON; ltoken=wsGo6hX5ai55bhls4PjEHihdMnw0ec7b0O1dh4la"
   stuid: ""
   stoken: "v2_GVdvEaV5U0Qtn4YwjMuJvWJyAM8JHhhhmwMp0r1-OOAYKH1kOM0e3wUwxs4aYfRDfJ_PQlll5aJeHZy62C_qPj2Qm83Zlbem8xeTCNpG9SSPY8tHh1kpJkkj_pZKUjrrLo69qcdcDg==.CAE="
   mid: ""

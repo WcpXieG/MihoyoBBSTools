@@ -22,8 +22,7 @@ mihoyobbs:
   checkin: true
   #签到的社区列表 详情可以看config文件夹下面的readme
   checkin_list:
-    - 5
-    - 2
+    - 6
   #看帖
   read: true
   #点赞帖子
@@ -45,7 +44,7 @@ games:
     #原神
     genshin:
       #控制是否启用签到，下面一致
-      checkin: true
+      checkin: false
       #这里是不签到的账号，填入文本型数据 示例["114514","1919810"](也许你这边是和checkin_list那块一样)，下面一致
       black_list: []
     #崩坏2
@@ -66,7 +65,7 @@ games:
       black_list: []
     #绝区零
     zzz:
-      checkin: true
+      checkin: false
       black_list: []
   #国际服控制区域
   os:
@@ -98,7 +97,7 @@ cloud_games:
     #云原神
     genshin:
       #开启签到
-      enable: true
+      enable: false
       #这里填入抓包获得的token，支持多个
       token: "ai=4;ci=1;oi=168406990;ct=v2_26438181f73c10003c154e51a840d9b193693e87;si=6c8b4855b49846d70603089d8aef9f8a8c1fd4fe9a81d369307dcaacd1bee22c;bi=hk4e_cn"
     #云绝区零

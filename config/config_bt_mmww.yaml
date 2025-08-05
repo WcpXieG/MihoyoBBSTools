@@ -23,6 +23,7 @@ mihoyobbs:
   #签到的社区列表 详情可以看config文件夹下面的readme
   checkin_list:
     - 6
+    - 5
   #看帖
   read: true
   #点赞帖子

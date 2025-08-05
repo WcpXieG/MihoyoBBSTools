@@ -6,9 +6,9 @@ version: 13
 push: ""
 account:
   #登入账号只需要修改cookie就行了
-  cookie: "_MHYUUID=56e3bc29-fbff-464b-a583-41f379711eb7; DEVICEFP_SEED_ID=683caf919f5b53f6; DEVICEFP_SEED_TIME=1754377657651; DEVICEFP=38d80e968cf95; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=7fab8aa67d; cookie_token_v2=v2_GLXQEwdjViDL7WeRmwgYU8Rs6UV4gmLblbxbeWbvwN-2nGmr1BWZecC5RuYp_yYllgDk9bVJTcocWGp_unMdqqXcZY9vBKV_cqR1DeXJ8EXtLXtEqhTa9TyiQqV5jW1UJ66VbZwXXYbbnIf6hQ==.CAE=; ltoken_v2=v2_unuZ7xdjICO7VyIlcgGIna8EQNhsYQMFXdbx1NugvQ3uGtUo5dNnnQsQRuH_9_87uAJd-QDu9zfLjiZmrcCVee6vjfg6eX7K6AFJw2JKv-6wJBtU-Niqi9mjCfukGKmPMZClCM1gTSrQ4TgSVA==.CAE=; cookie_token=DxyYSr0xiZwkP4bdWyUWtJZzFiZgGq5REUFEzpON; ltoken=wsGo6hX5ai55bhls4PjEHihdMnw0ec7b0O1dh4la"
+  cookie: "_MHYUUID=56e3bc29-fbff-464b-a583-41f379711eb7; DEVICEFP_SEED_ID=683caf919f5b53f6; DEVICEFP_SEED_TIME=1754377657651; DEVICEFP=38d80e968cf95; MIHOYO_LOGIN_PLATFORM_LIFECYCLE_ID=98aa4a4256; ltoken_v2=v2_vNXLDfd1gTXgHAbLYy4owcf0h4u7_sZ8Dzb-U2L2aybri778U3TRWGVwSP4hkHWcxRF6QtuZ-z__XPcWmLls3VKOYoO-sM72Rxdf9S1Ej7LbtT2JcPuyaxnC1ArLrIy7aSrmd8PPcBk1Xhb4HZI=.CAE=; ltmid_v2=01wbuaanmw_mhy; ltuid_v2=438644541; cookie_token_v2=v2_BLd4wrVbCLw1ewTvYHMptpukKn-kJ0j_J8L_survMiz9wsSGl0fhUz84Urr3XITwV25XWviqxICF8jHrQ-E351g1o3W08y9AQQAp7bQF6BhS9Q7O-r_-NnKI4ltPs6S8YHpgeIKQvv40jGDkbno=.CAE=; account_mid_v2=01wbuaanmw_mhy; account_id_v2=438644541; cookie_token=HFcwFChpElrXxWJKKiPeU45NIPgKil4wBVP0iZhB; account_id=438644541; ltoken=ZA8ZTiujKpml2zs75ozbA52JFtEOSnrbeyYx7bGv; ltuid=438644541"
   stuid: ""
-  stoken: "v2_GVdvEaV5U0Qtn4YwjMuJvWJyAM8JHhhhmwMp0r1-OOAYKH1kOM0e3wUwxs4aYfRDfJ_PQlll5aJeHZy62C_qPj2Qm83Zlbem8xeTCNpG9SSPY8tHh1kpJkkj_pZKUjrrLo69qcdcDg==.CAE="
+  stoken: "v2_x36kxvnjedfw5wcLe8v7bFgLBhMe_JNecnfz9GX3VfXFFBOWfrq35za84pjPWjbJ9ObFBHG2FRQMyByxrR34DVbG2CioCOkxEtyW4pw7iqhwFPRHzTZpm2UKr8bA40OvCVIEo_i35Q==.CAE="
   mid: ""
 device:
   name: "Xiaomi MI 6"

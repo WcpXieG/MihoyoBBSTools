@@ -1,5 +1,5 @@
-#这里控制整个config文件是否启用
-enable: true
+#这里控制整个config文件是否启用（该配置文件是WCP的测试文件，请禁用）
+enable: false
 #config的版本
 version: 13
 # todo功能

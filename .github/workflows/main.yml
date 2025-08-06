@@ -34,4 +34,4 @@ jobs:
       # 4. 启动主程序
       - name: Start the main thread
         run: |
-          python main.py
+          python main_multi.py 

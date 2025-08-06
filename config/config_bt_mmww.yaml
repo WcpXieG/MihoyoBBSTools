@@ -1,5 +1,5 @@
 #这里控制整个config文件是否启用
-enable: true
+enable: false
 #config的版本
 version: 13
 # todo功能
